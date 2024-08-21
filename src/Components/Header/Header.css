@@ -1,0 +1,12 @@
+.dropdown-highlight .dropdown-item:hover {
+    background-color: rgb(224, 244, 252);
+    color: #000;
+}
+
+.dropdown-highlight .dropdown-item:active {
+    background-color: rgb(216, 235, 242);
+}
+
+.dropdown-highlight1 .dropdown-toggle::after {
+    border-top-color: white;
+}

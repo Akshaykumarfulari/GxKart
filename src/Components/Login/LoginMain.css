@@ -1,0 +1,46 @@
+/* css for login & registration*/
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100vh;
+    background:
+        url("https://images.yourstory.com/cs/wordpress/2016/12/Flipkart-Devaluation-1.png");
+    background-size: fit;
+    background-position: center;
+}
+
+.form1 {
+    background-color: white;
+    padding: 0px 60px;
+    border-radius: 10px;
+    margin-right: 20px
+}
+
+.form2 {
+    background-color: white;
+    padding: 0px 60px;
+    border-radius: 10px;
+    margin-right: 20px
+}
+
+.h1s {
+    color: rgb(77, 1, 77);
+    text-align: center;
+}
+
+.button2 {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    background-color: #047BD5;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}

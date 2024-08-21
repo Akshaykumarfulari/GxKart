@@ -1,0 +1,15 @@
+.rounded-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-color: rgb(249, 244, 244);
+}
+
+.rounded-img {
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+}
