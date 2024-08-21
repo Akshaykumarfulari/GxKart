@@ -1,0 +1,15 @@
+.custom-container {
+    width: 50%;
+}
+
+.custom-label{
+    color:rgb(55, 54, 54);
+    font-weight: 500;
+    
+}
+
+@media (max-width: 767px) {
+    .custom-container {
+        width: 100%;
+    }
+}
