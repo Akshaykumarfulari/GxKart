@@ -14,7 +14,7 @@ export default function WishlistMain() {
   //Fetch user's wishlist data
   useEffect(() => {
     if (userId) {
-      fetch(`http://localhost:8080/flipkart/wishlist/view?userId=${userId}`)
+      fetch(`http://54.197.52.197:8080/flipkart/wishlist/view?userId=${userId}`)
         .then(response => response.json())
         .then(data => {
           setWishlistData(data)

@@ -57,7 +57,7 @@ export default function LoginMain() {
             'password': values.password
         }
 
-        const captchaValue = true;
+        const captchaValue = recaptcha.current.getValue();
 
         if (!captchaValue) {
             alert("Please verify the reCAPTCHA!");
@@ -104,7 +104,7 @@ export default function LoginMain() {
         <>
             <div className="login">
                 <form className='form2' onSubmit={handleSubmit}>
-                    <h1 className='h1s'>Login <a href="http://localhost:3000/" > <img src={logo} height={50} width={50}></img></a></h1>
+                    <h1 className='h1s'>Login <a href="http://54.197.52.197:3000/" > <img src={logo} height={50} width={50}></img></a></h1>
                     {inputs.map((input) => (
                         <Login
                             key={input.id}
@@ -116,15 +116,15 @@ export default function LoginMain() {
                     <button className='button2' onClick={postData}>Login</button>
                     <ToastContainer />
                     <div>
-                        <a href="http://localhost:3000/registration" style={{ fontWeight: '500' }}> <span style={{ color: 'black' }}>Dont have an account? </span>Register here</a>
+                        <a href="http://54.197.52.197:3000/registration" style={{ fontWeight: '500' }}> <span style={{ color: 'black' }}>Dont have an account? </span>Register here</a>
                     </div>
-                    {/* // <div style={{ marginTop: '10px', marginBottom: "20px" }}>
-                    //     <ReCAPTCHA
-                    //         ref={recaptcha}
-                    //         sitekey={'6LfBj2gpAAAAAJQ2M2STgN8_nAt9UHeGS5V418YI'}
-                    //     />
-                    // </div> */}
-             </form>
+                    {/* <div style={{ marginTop: '10px', marginBottom: "20px" }}>
+                        <ReCAPTCHA
+                            ref={recaptcha}
+                            sitekey={'6LfBj2gpAAAAAJQ2M2STgN8_nAt9UHeGS5V418YI'}
+                        />
+                    </div> */}
+                </form>
             </div>
         </>
     );

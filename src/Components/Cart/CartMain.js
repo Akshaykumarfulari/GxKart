@@ -18,7 +18,7 @@ export default function CartMain() {
     //Fetch user's cart data
     useEffect(() => {
         if (userId) {
-            fetch(`http://localhost:8080/flipkart/cart/view?userId=${userId}`)
+            fetch(`http://54.197.52.197:8080/flipkart/cart/view?userId=${userId}`)
                 .then(response => response.json())
                 .then(data => {
                     setCartData(data);
@@ -43,7 +43,7 @@ export default function CartMain() {
 
     //Update product quantity in cart
     const handleUpdateQuantity = (productId, newQuantity) => {
-        fetch(`http://localhost:8080/flipkart/cart/update-quantity?userId=${userId}&productId=${productId}&quantity=${newQuantity}`, {
+        fetch(`http://54.197.52.197:8080/flipkart/cart/update-quantity?userId=${userId}&productId=${productId}&quantity=${newQuantity}`, {
             method: 'PUT',
         })
             .then((response) => {

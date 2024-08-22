@@ -16,7 +16,7 @@ export default function EditContact({ userId }) {
 
   //Fetch user contact details
   useEffect(() => {
-    axios.get(`http://localhost:8080/flipkart/user/${userId}`)
+    axios.get(`http://54.197.52.197:8080/flipkart/user/${userId}`)
       .then(response => {
         const contactData = response.data.contact;
         setFormData({
@@ -40,7 +40,7 @@ export default function EditContact({ userId }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.put(`http://localhost:8080/flipkart/user/updateAddress/${userId}`, formData)
+    axios.put(`http://54.197.52.197:8080/flipkart/user/updateAddress/${userId}`, formData)
       .then(response => {
         toast.success('Address updated successfully')
       })

@@ -42,7 +42,7 @@ export default function Admin() {
     //For handling add product
     const handleAdminSubmit = async () => {
         const passKey = formData.passKey;
-        const apiUrl = `http://localhost:8080/flipkart/admin/add-product?passKey=${passKey}`;
+        const apiUrl = `http://54.197.52.197:8080/flipkart/admin/add-product?passKey=${passKey}`;
         const sub = formData.subCategory;
         const cat = sub.substring(0, sub.indexOf(' '))
         const categoryId = parseInt(cat)
@@ -64,16 +64,16 @@ export default function Admin() {
 
             if (response.status === 200) {
                 alert('Product added successfully');
-                window.location.replace('http://localhost:3000/admin')
+                window.location.replace('http://54.197.52.197:3000/admin')
             }
         } catch (error) {
             if (error.code === "ERR_BAD_REQUEST") {
                 alert('Product add failed: ' + error.response.data);
-                window.location.replace('http://localhost:3000/admin')
+                window.location.replace('http://54.197.52.197:3000/admin')
             } else {
                 console.log(error)
                 alert('Product add failed: ' + error.message);
-                window.location.replace('http://localhost:3000/admin')
+                window.location.replace('http://54.197.52.197:3000/admin')
             }
         }
     };
@@ -104,7 +104,7 @@ export default function Admin() {
                 <div style={{ backgroundImage: "url('https://i0.wp.com/ankityadav.me/wp-content/uploads/Flipkart.png?fit=19201080&ssl=1')", justifyContent: "center", display: 'flex', backgroundPosition: "left", backgroundSize: "contain" }}>
                     <div className="container  mt-5 mb-5 border p-3 custom-container" style={{ backgroundColor: 'white', marginLeft: '150px' }}>
                         <div>
-                            <h2 className="text-center mb-4" style={{ color: '#047BD5', fontWeight: '630', fontFamily: "Palatino", fontStyle: "italic" }}>Admin Panel - Add Products <a href="http://localhost:3000/admin" > <img src={logo} height={50} width={50} style={{ marginRight: "80px" }}></img></a>
+                            <h2 className="text-center mb-4" style={{ color: '#047BD5', fontWeight: '630', fontFamily: "Palatino", fontStyle: "italic" }}>Admin Panel - Add Products <a href="http://54.197.52.197:3000/admin" > <img src={logo} height={50} width={50} style={{ marginRight: "80px" }}></img></a>
                                 <button className='btn btn-secondary' onClick={handleLogout}>Logout</button> </h2>
                         </div>
                         <hr></hr>

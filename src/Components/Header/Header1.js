@@ -70,7 +70,7 @@ export default function Header1() {
         <div>
           <Navbar expand="lg" style={{ backgroundColor: 'whitesmoke' }}>
             <Container fluid>
-              <Navbar.Brand href="http://localhost:3000/"> <img src={logo} height={50} width={200}></img></Navbar.Brand>
+              <Navbar.Brand href="http://54.197.52.197:3000/"> <img src={logo} height={50} width={200}></img></Navbar.Brand>
               <Navbar.Toggle aria-controls="navbarScroll" />
               <Navbar.Collapse id="navbarScroll">
                 <Nav
@@ -79,9 +79,9 @@ export default function Header1() {
                   navbarScroll
                 >
                   <NavDropdown title="Shop by Category" id="navbarScrollingDropdown" className='dropdown-highlight' >
-                    <NavDropdown.Item href="http://localhost:3000/category/Mens_Wear">Mens Fashion</NavDropdown.Item>
-                    <NavDropdown.Item href="http://localhost:3000/category/Womens_Wear">Womens Fashion</NavDropdown.Item>
-                    <NavDropdown.Item href="http://localhost:3000/category/Electronics">Electronics</NavDropdown.Item>
+                    <NavDropdown.Item href="http://54.197.52.197:3000/category/Mens_Wear">Mens Fashion</NavDropdown.Item>
+                    <NavDropdown.Item href="http://54.197.52.197:3000/category/Womens_Wear">Womens Fashion</NavDropdown.Item>
+                    <NavDropdown.Item href="http://54.197.52.197:3000/category/Electronics">Electronics</NavDropdown.Item>
                   </NavDropdown>
 
                   <div style={{ justifyContent: 'center' }}>
@@ -124,7 +124,7 @@ export default function Header1() {
                 <div >
                   <Offcanvas show={show} onHide={handleClose} placement="end">
                     <Offcanvas.Header closeButton >
-                      <Offcanvas.Title><h4><a href="http://localhost:3000/" > <img src={logo1} height={35} width={35}></img></a> Welcome to Flipkart</h4></Offcanvas.Title>
+                      <Offcanvas.Title><h4><a href="http://54.197.52.197:3000/" > <img src={logo1} height={35} width={35}></img></a> Welcome to Gxkart</h4></Offcanvas.Title>
 
                     </Offcanvas.Header>
                     <Offcanvas.Body>

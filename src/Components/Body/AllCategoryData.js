@@ -13,7 +13,7 @@ const AllCategoryData = [
     {
         id: 0,
         image: electronics,
-        link: 'http://localhost:3000/category',
+        link: 'http://54.197.52.197:3000/category',
         Title: "Electronics",
         name: "Electronics"
 
@@ -21,35 +21,35 @@ const AllCategoryData = [
     {
         id: 1,
         image: groceries,
-        link: 'http://localhost:3000/category',
+        link: 'http://54.197.52.197:3000/category',
         Title: "Grocery",
         name: "Grocery"
     },
     {
         id: 2,
         image: menswear,
-        link: 'http://localhost:3000/category',
+        link: 'http://54.197.52.197:3000/category',
         Title: "Mens Wear",
         name: "Mens_Wear"
     },
     {
         id: 3,
         image: home,
-        link: 'http://localhost:3000/category',
+        link: 'http://54.197.52.197:3000/category',
         Title: "Home & Furniture",
         name: "Home_&_Furniture"
     },
     {
         id: 4,
         image: toys,
-        link: 'http://localhost:3000/category',
+        link: 'http://54.197.52.197:3000/category',
         Title: "Toys",
         name: "Toys"
     },
     {
         id: 5,
         image: womenswear,
-        link: 'http://localhost:3000/category',
+        link: 'http://54.197.52.197:3000/category',
         Title: "Womens Wear",
         name: "Womens_Wear"
     }

@@ -126,7 +126,7 @@ export default function RegisterMain() {
   return (
     <div className="login">
       <form className='form2' onSubmit={handleSubmit}>
-        <h1 className='h1s'>Register <a href="http://localhost:3000/" > <img src={logo} height={50} width={50}></img></a></h1>
+        <h1 className='h1s'>Register <a href="http://54.197.52.197:3000/" > <img src={logo} height={50} width={50}></img></a></h1>
         {inputs.map((input) => (
           <Register
             key={input.id}
