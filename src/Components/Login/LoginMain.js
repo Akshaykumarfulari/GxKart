@@ -51,7 +51,7 @@ export default function LoginMain() {
     };
 
     const postData = async () => {
-        let url = 'http://98.80.225.63:8080/flipkart/user/login';
+        let url = 'http://54.197.52.197:8080/flipkart/user/login';
         const reqBody = {
             'email': values.email,
             'password': values.password
