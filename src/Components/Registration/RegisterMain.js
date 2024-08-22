@@ -85,7 +85,7 @@ export default function RegisterMain() {
 
   const postData = async () => {
 
-    let url = 'http://localhost:8080/flipkart/user/register';
+    let url = 'http://98.80.225.63:8080/flipkart/user/register';
     const reqBody = {
       name: values.username,
       email: values.email,
