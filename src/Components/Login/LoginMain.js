@@ -57,7 +57,7 @@ export default function LoginMain() {
             'password': values.password
         }
 
-        const captchaValue = recaptcha.current.getValue();
+        const captchaValue = true;
 
         if (!captchaValue) {
             alert("Please verify the reCAPTCHA!");
