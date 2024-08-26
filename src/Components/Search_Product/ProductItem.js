@@ -89,7 +89,7 @@ export default function ProductItem({ product }) {
               <h4 className="mb-1 me-1">₹{product.product_price}</h4>
               <span className="text-danger"><s>₹{product.product_MRP}</s></span>
             </div>
-            <h6 className="text-success" style={{ marginLeft: "10px" }}> {product.product_price >= 499 ? 'FREE shipping' : <p>FREE delivery <span style={{ color: 'black', fontWeight: "400" }}>on orders dispatched by Gxkart over ₹499.</span></p>}</h6>
+            <h6 className="text-success" style={{ marginLeft: "10px" }}> {product.product_price >= 499 ? 'FREE shipping' : <p>FREE delivery <span style={{ color: 'black', fontWeight: "400" }}>on orders dispatched by Flipkart over ₹499.</span></p>}</h6>
             <div className="d-flex flex-column mt-4" style={{ marginLeft: "10px" }}>
               <button onClick={handlecart} className="btn btn-primary btn-sm" type="button">
                 {addedToCart ? 'Remove from cart' : 'Add to cart'}
