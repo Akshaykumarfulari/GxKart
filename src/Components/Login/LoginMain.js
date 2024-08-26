@@ -118,12 +118,12 @@ export default function LoginMain() {
                     <div>
                         <a href="http://54.197.52.197:3000/registration" style={{ fontWeight: '500' }}> <span style={{ color: 'black' }}>Dont have an account? </span>Register here</a>
                     </div>
-                    <div style={{ marginTop: '10px', marginBottom: "20px" }}>
+                    {/* <div style={{ marginTop: '10px', marginBottom: "20px" }}>
                         <ReCAPTCHA
                             ref={recaptcha}
                             sitekey={'6LfBj2gpAAAAAJQ2M2STgN8_nAt9UHeGS5V418YI'}
                         />
-                    </div>
+                    </div> */}
                 </form>
             </div>
         </>
