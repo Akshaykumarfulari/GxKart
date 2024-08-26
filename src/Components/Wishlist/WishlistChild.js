@@ -10,7 +10,7 @@ export default function WishlistChild({ product, userId, onRemove }) {
 
     //Remove product from wishlist
     const handleRemoveClick = () => {
-        fetch(`http://54.197.52.197:8080/flipkart/wishlist/remove?userId=${userId}&productId=${product.product_id}`, {
+        fetch(`http://54.197.52.197:8080/gxkart/wishlist/remove?userId=${userId}&productId=${product.product_id}`, {
             method: 'DELETE',
         })
             .then(response => {
@@ -25,7 +25,7 @@ export default function WishlistChild({ product, userId, onRemove }) {
             toast("Please Login to Add to cart")
         } else {
             axios
-                .post(`http://54.197.52.197:8080/flipkart/cart/add?userId=${userId}&productId=${product.product_id}&quantity=1`)
+                .post(`http://54.197.52.197:8080/gxkart/cart/add?userId=${userId}&productId=${product.product_id}&quantity=1`)
                 .then(() => {
                     toast.success("Added to cart");
 

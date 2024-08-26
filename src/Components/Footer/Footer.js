@@ -42,9 +42,9 @@ export default function Footer() {
           </Modal.Header>
           <Modal.Body>
             <p>
-              The Flipkart Group is one of India's leading digital commerce entities and includes group companies Flipkart, Myntra, Flipkart Wholesale, Flipkart Health+ and Cleartrip. The Group is also a majority shareholder in PhonePe, one of the leading Payments Apps in India.
+              The gxkart Group is one of India's leading digital commerce entities and includes group companies gxkart, Myntra, gxkart Wholesale, gxkart Health+ and Cleartrip. The Group is also a majority shareholder in PhonePe, one of the leading Payments Apps in India.
               <br></br><br></br>
-              Started in 2007, Flipkart has enabled millions of consumers, sellers, merchants, and small businesses to be a part of India's digital commerce revolution, with a registered customer base of more than 400 million, offering over 150 million products across 80+ categories. Our efforts to democratize commerce in India, drive access and affordability, delight customers, create lakhs of jobs in the ecosystem, and empower generations of entrepreneurs and MSMEs have inspired us to innovate on many industry firsts. Flipkart is known for pioneering services such as Cash on Delivery, No Cost EMI and easy returns – customer-centric innovations have made online shopping more accessible and affordable for millions of Indians. Together with its group companies, Flipkart is committed to transforming commerce in India through technology.
+              Started in 2007, gxkart has enabled millions of consumers, sellers, merchants, and small businesses to be a part of India's digital commerce revolution, with a registered customer base of more than 400 million, offering over 150 million products across 80+ categories. Our efforts to democratize commerce in India, drive access and affordability, delight customers, create lakhs of jobs in the ecosystem, and empower generations of entrepreneurs and MSMEs have inspired us to innovate on many industry firsts. gxkart is known for pioneering services such as Cash on Delivery, No Cost EMI and easy returns – customer-centric innovations have made online shopping more accessible and affordable for millions of Indians. Together with its group companies, gxkart is committed to transforming commerce in India through technology.
             </p>
           </Modal.Body>
         </Modal>
@@ -60,13 +60,13 @@ export default function Footer() {
         >
           <Modal.Header closeButton>
             <Modal.Title id="example-custom-modal-styling-title">
-              Careers at Flipkart
+              Careers at gxkart
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <p>
               Join us on our journey to revolutionize e-commerce and make a meaningful impact.
-              At Flipkart, we believe in fostering an environment of innovation, collaboration,
+              At gxkart, we believe in fostering an environment of innovation, collaboration,
               and continuous learning.
             </p>
             <p>
@@ -75,7 +75,7 @@ export default function Footer() {
               to creating an inclusive workplace that encourages growth and creativity.
             </p>
             <p>
-              Visit our <a href="https://careers.flipkart.com/" target="_blank" rel=" noreferrer">Careers Page</a> to discover current job openings and embark on a rewarding career with Flipkart.
+              Visit our <a href="https://careers.gxkart.com/" target="_blank" rel=" noreferrer">Careers Page</a> to discover current job openings and embark on a rewarding career with gxkart.
             </p>
           </Modal.Body>
         </Modal>
@@ -96,8 +96,8 @@ export default function Footer() {
           </Modal.Header>
           <Modal.Body>
             <p>
-              <span style={{ fontWeight: "bold" }}>Flipkart Help Center | 24x7 Customer Care Support</span><br></br><br></br>
-              You may also reach out to Flipkart customer care at 1800-208-9898.
+              <span style={{ fontWeight: "bold" }}>gxkart Help Center | 24x7 Customer Care Support</span><br></br><br></br>
+              You may also reach out to gxkart customer care at 1800-208-9898.
             </p>
           </Modal.Body>
         </Modal>
@@ -119,7 +119,7 @@ export default function Footer() {
           </Modal.Header>
           <Modal.Body>
             <p>
-              <img src="https://www.thestiffcollar.com/cdn/shop/products/PETER-ENGLAND-Solid-Men-Polo-Neck-Yellow-T-Shirt-Buy-PETER-ENGLAND-Solid-Men-Polo-Neck-Yellow-T-Shirt-Online-at-Best-Prices-in-India-Flipkart-com_1024x1024.png?v=1674474960" style={{ width: "750px" }} />
+              <img src="https://www.thestiffcollar.com/cdn/shop/products/PETER-ENGLAND-Solid-Men-Polo-Neck-Yellow-T-Shirt-Buy-PETER-ENGLAND-Solid-Men-Polo-Neck-Yellow-T-Shirt-Online-at-Best-Prices-in-India-gxkart-com_1024x1024.png?v=1674474960" style={{ width: "750px" }} />
             </p>
           </Modal.Body>
         </Modal>
@@ -146,7 +146,7 @@ export default function Footer() {
 
               Sellers incur relatively higher shipping costs on low value items. In such cases, charging a nominal delivery charge helps them offset logistics costs. Please check your order summary to understand the delivery charges for individual products.<br /><br />
 
-              For Products listed as Flipkart Plus, a Rs 40 charge for delivery per item may be applied if the order value is less than Rs 500. While, orders of Rs 500 or above are delivered free.
+              For Products listed as gxkart Plus, a Rs 40 charge for delivery per item may be applied if the order value is less than Rs 500. While, orders of Rs 500 or above are delivered free.
             </p>
           </Modal.Body>
         </Modal>
@@ -194,12 +194,12 @@ export default function Footer() {
           </Modal.Header>
           <Modal.Body>
             <p>
-              <span style={{ fontWeight: "bold" }}>How do I pay for a Flipkart purchase?</span><br></br><br></br>
-              Flipkart offers you multiple payment methods. Whatever your online mode of payment, you can rest assured that Flipkart's trusted payment gateway partners use secure encryption technology to keep your transaction details confidential at all times.
+              <span style={{ fontWeight: "bold" }}>How do I pay for a gxkart purchase?</span><br></br><br></br>
+              gxkart offers you multiple payment methods. Whatever your online mode of payment, you can rest assured that gxkart's trusted payment gateway partners use secure encryption technology to keep your transaction details confidential at all times.
               <br></br><br></br>
               You may use Internet Banking, Gift Card, Cash on Delivery and Wallet to make your purchase.
               <br></br><br></br>
-              Flipkart also accepts payments made using Visa, MasterCard, Maestro and American Express credit/debit cards in India and 21 other countries.
+              gxkart also accepts payments made using Visa, MasterCard, Maestro and American Express credit/debit cards in India and 21 other countries.
               <br></br><br></br>
               We accept payments made by credit/debit cards issued in India and 21 other countries.
             </p>
@@ -227,15 +227,15 @@ export default function Footer() {
                     {renderModalContent('aboutUs')}
                   </li>
                   <li>
-                    <a href="https://www.flipkartwholesale.com/" className="text-white" target='_blank' rel=" noreferrer">Flipkart Wholesale</a>
+                    <a href="https://www.gxkartwholesale.com/" className="text-white" target='_blank' rel=" noreferrer">gxkart Wholesale</a>
 
                   </li>
                   <li>
-                    <a href="https://stories.flipkart.com/category/top-stories/news/" className="text-white" target='_blank' rel=" noreferrer">Press</a>
+                    <a href="https://stories.gxkart.com/category/top-stories/news/" className="text-white" target='_blank' rel=" noreferrer">Press</a>
 
                   </li>
                   <li>
-                    <a href="https://stories.flipkart.com/" className="text-white" target='_blank' rel=" noreferrer">Flipkart Stories</a>
+                    <a href="https://stories.gxkart.com/" className="text-white" target='_blank' rel=" noreferrer">gxkart Stories</a>
 
                   </li>
                   <li>
@@ -289,13 +289,13 @@ export default function Footer() {
                 <h5 className="text-uppercase mb-4 text-white">Social</h5>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="https://www.instagram.com/flipkart/?hl=en" className="text-white" target='_blank' rel=" noreferrer">Instagram</a>
+                    <a href="https://www.instagram.com/gxkart/?hl=en" className="text-white" target='_blank' rel=" noreferrer">Instagram</a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/flipkart/" className="text-white" target='_blank' rel=" noreferrer">Facebook</a>
+                    <a href="https://www.facebook.com/gxkart/" className="text-white" target='_blank' rel=" noreferrer">Facebook</a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/flipkart" className="text-white" target='_blank' rel=" noreferrer">YouTube</a>
+                    <a href="https://www.youtube.com/gxkart" className="text-white" target='_blank' rel=" noreferrer">YouTube</a>
                   </li>
                 </ul>
               </div>
@@ -313,7 +313,7 @@ export default function Footer() {
           </div>
 
           <div className="text-center p-3 text-white">
-            © 2007-2024 Flipkart.com
+            © 2007-2024 gxkart.com
           </div>
         </footer>
       </div>

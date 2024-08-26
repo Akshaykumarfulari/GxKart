@@ -18,7 +18,7 @@ export default function CategoryParent() {
   //Fetchs the data based for selected category
   const handleSearch = async () => {
     try {
-      const response = await axios.get(`http://54.197.52.197:8080/flipkart/category/${categoryTitle}`);
+      const response = await axios.get(`http://54.197.52.197:8080/gxkart/category/${categoryTitle}`);
       setProducts(response.data);
       setLoadingCart(false);
       window.scrollTo({ top: 0, behavior: 'instant' })

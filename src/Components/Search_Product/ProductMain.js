@@ -20,7 +20,7 @@ export default function ProductMain() {
 
         try {
             const response = await axios.get(
-                `http://54.197.52.197:8080/flipkart/get-products?subcategory=${search}`
+                `http://54.197.52.197:8080/gxkart/get-products?subcategory=${search}`
             );
             let filteredProducts = response.data;
 

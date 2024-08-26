@@ -15,7 +15,7 @@ export default function Payment() {
     useEffect(() => {
         if (price) {
             const createOrder = async () => {
-                return await fetch(`http://54.197.52.197:8080/flipkart/payment?userId=${userId}&amount=${price}`, {
+                return await fetch(`http://54.197.52.197:8080/gxkart/payment?userId=${userId}&amount=${price}`, {
                     mode: 'no-cors',
                     method: 'GET',
                 });
@@ -34,7 +34,7 @@ export default function Payment() {
                     handler: function () {
                         alert('Payment Success, Order Placed');
 
-                        fetch(`http://54.197.52.197:8080/flipkart/cart/delete?userId=${userId}`, {
+                        fetch(`http://54.197.52.197:8080/gxkart/cart/delete?userId=${userId}`, {
                             method: 'DELETE',
                         })
                             .then(response => {

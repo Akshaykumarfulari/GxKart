@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import "../../Components/Login/LoginMain.css";
 import Register from "../Registration/Register";
-import logo from '../../Images/flipkart.png'
+import logo from '../../Images/gxkart.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
@@ -85,7 +85,7 @@ export default function RegisterMain() {
 
   const postData = async () => {
 
-    let url = 'http://54.197.52.197:8080/flipkart/user/register';
+    let url = 'http://54.197.52.197:8080/gxkart/user/register';
     const reqBody = {
       name: values.username,
       email: values.email,

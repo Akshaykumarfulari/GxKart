@@ -4,12 +4,12 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../../Images/flipkart-logo.png'
+import logo from '../../Images/gxkart-logo.png'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { Link } from 'react-router-dom';
 import './Header.css'
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import logo1 from '../../Images/flipkart.png'
+import logo1 from '../../Images/gxkart.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 // import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
@@ -124,7 +124,7 @@ export default function Header1() {
                 <div >
                   <Offcanvas show={show} onHide={handleClose} placement="end">
                     <Offcanvas.Header closeButton >
-                      <Offcanvas.Title><h4><a href="http://54.197.52.197:3000/" > <img src={logo1} height={35} width={35}></img></a> Welcome to Flipkart</h4></Offcanvas.Title>
+                      <Offcanvas.Title><h4><a href="http://54.197.52.197:3000/" > <img src={logo1} height={35} width={35}></img></a> Welcome to gxkart</h4></Offcanvas.Title>
 
                     </Offcanvas.Header>
                     <Offcanvas.Body>
