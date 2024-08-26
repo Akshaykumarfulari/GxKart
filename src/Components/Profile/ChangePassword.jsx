@@ -27,7 +27,7 @@ export default function ChangePassword ({ userId }) {
     }
 
     try {
-      await axios.put(`http://54.197.52.197:8080/gxkart/user/updatePassword/${userId}`, {
+      await axios.put(`http://54.197.52.197:8080/flipkart/user/updatePassword/${userId}`, {
         oldPassword,
         newPassword,
       });

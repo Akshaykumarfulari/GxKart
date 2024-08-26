@@ -17,14 +17,14 @@ export default function ProductItem({ product }) {
     } else {
       if (addedToWishlist) {
         axios
-          .delete(`http://54.197.52.197:8080/gxkart/wishlist/remove?userId=${userId}&productId=${product.product_id}`)
+          .delete(`http://54.197.52.197:8080/flipkart/wishlist/remove?userId=${userId}&productId=${product.product_id}`)
           .then(() => {
             toast.success("Removed from wishlist");
             setaddedToWishlist(false);
           })
       } else {
         axios
-          .post(`http://54.197.52.197:8080/gxkart/wishlist/add?userId=${userId}&productId=${product.product_id}`)
+          .post(`http://54.197.52.197:8080/flipkart/wishlist/add?userId=${userId}&productId=${product.product_id}`)
           .then(() => {
             toast.success("Added to wishlist");
             setaddedToWishlist(true);
@@ -44,7 +44,7 @@ export default function ProductItem({ product }) {
     } else {
       if (addedToCart) {
         axios
-          .delete(`http://54.197.52.197:8080/gxkart/cart/remove?userId=${userId}&productId=${product.product_id}`)
+          .delete(`http://54.197.52.197:8080/flipkart/cart/remove?userId=${userId}&productId=${product.product_id}`)
           .then(() => {
             toast.success("Removed from cart");
             setaddedToCart(false);
@@ -54,7 +54,7 @@ export default function ProductItem({ product }) {
           });
       } else {
         axios
-          .post(`http://54.197.52.197:8080/gxkart/cart/add?userId=${userId}&productId=${product.product_id}&quantity=1`)
+          .post(`http://54.197.52.197:8080/flipkart/cart/add?userId=${userId}&productId=${product.product_id}&quantity=1`)
           .then(() => {
             toast.success("Added to cart");
             setaddedToCart(true);

@@ -10,7 +10,7 @@ export default function OrderHistory ({ userId }) {
   useEffect(() => {
     const fetchOrderHistory = async () => {
       try {
-        const response = await fetch(`http://54.197.52.197:8080/gxkart/order-history/view/${userId}`);
+        const response = await fetch(`http://54.197.52.197:8080/flipkart/order-history/view/${userId}`);
         const data = await response.json();
         setOrderHistory(data);
       } catch {

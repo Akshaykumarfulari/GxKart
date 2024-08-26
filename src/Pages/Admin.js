@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Form, Button, Col, Row } from 'react-bootstrap';
 import './Admin.css';
 import axios from 'axios';
-import logo from '../../src/Images/gxkart.png'
+import logo from '../../src/Images/flipkart.png'
 import { useNavigate } from 'react-router-dom';
 
 /*
@@ -42,7 +42,7 @@ export default function Admin() {
     //For handling add product
     const handleAdminSubmit = async () => {
         const passKey = formData.passKey;
-        const apiUrl = `http://54.197.52.197:8080/gxkart/admin/add-product?passKey=${passKey}`;
+        const apiUrl = `http://54.197.52.197:8080/flipkart/admin/add-product?passKey=${passKey}`;
         const sub = formData.subCategory;
         const cat = sub.substring(0, sub.indexOf(' '))
         const categoryId = parseInt(cat)
@@ -101,7 +101,7 @@ export default function Admin() {
         <div>
             {userId != null && userRole === 'Admin' ?
 
-                <div style={{ backgroundImage: "url('https://i0.wp.com/ankityadav.me/wp-content/uploads/gxkart.png?fit=19201080&ssl=1')", justifyContent: "center", display: 'flex', backgroundPosition: "left", backgroundSize: "contain" }}>
+                <div style={{ backgroundImage: "url('https://i0.wp.com/ankityadav.me/wp-content/uploads/flipkart.png?fit=19201080&ssl=1')", justifyContent: "center", display: 'flex', backgroundPosition: "left", backgroundSize: "contain" }}>
                     <div className="container  mt-5 mb-5 border p-3 custom-container" style={{ backgroundColor: 'white', marginLeft: '150px' }}>
                         <div>
                             <h2 className="text-center mb-4" style={{ color: '#047BD5', fontWeight: '630', fontFamily: "Palatino", fontStyle: "italic" }}>Admin Panel - Add Products <a href="http://54.197.52.197:3000/admin" > <img src={logo} height={50} width={50} style={{ marginRight: "80px" }}></img></a>

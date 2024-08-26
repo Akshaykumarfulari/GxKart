@@ -14,7 +14,7 @@ export default function EditProfile({ userId }) {
 
     //Fetch user basic details
     useEffect(() => {
-        axios.get(`http://54.197.52.197:8080/gxkart/user/${userId}`)
+        axios.get(`http://54.197.52.197:8080/flipkart/user/${userId}`)
             .then(response => {
                 const userData = response.data;
                 setFormData({
@@ -35,7 +35,7 @@ export default function EditProfile({ userId }) {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        axios.put(`http://54.197.52.197:8080/gxkart/user/updateInfo/${userId}`, formData)
+        axios.put(`http://54.197.52.197:8080/flipkart/user/updateInfo/${userId}`, formData)
             .then(response => {
                 const newName = formData.newUsername;
                 localStorage.setItem("userName", newName)

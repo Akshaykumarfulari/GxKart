@@ -4,12 +4,12 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../../Images/gxkart-logo.png'
+import logo from '../../Images/flipkart-logo.png'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { Link } from 'react-router-dom';
 import './Header.css'
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import logo1 from '../../Images/gxkart.png'
+import logo1 from '../../Images/flipkart.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 // import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';

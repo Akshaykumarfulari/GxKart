@@ -9,7 +9,7 @@ export default function ItemsChild({ product, userId, onRemove, onUpdateQuantity
 
     //Remove item from the cart
     const handleRemoveClick = () => {
-        fetch(`http://54.197.52.197:8080/gxkart/cart/remove?userId=${userId}&productId=${product.product_id}`, {
+        fetch(`http://54.197.52.197:8080/flipkart/cart/remove?userId=${userId}&productId=${product.product_id}`, {
             method: 'DELETE',
         })
             .then(response => {

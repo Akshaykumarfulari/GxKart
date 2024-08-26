@@ -3,7 +3,7 @@ import axios from "axios"
 import "../Login/LoginMain.css";
 import Login from "./Login";
 import { useNavigate } from 'react-router-dom';
-import logo from '../../Images/gxkart.png'
+import logo from '../../Images/flipkart.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ReCAPTCHA from "react-google-recaptcha";
@@ -51,7 +51,7 @@ export default function LoginMain() {
     };
 
     const postData = async () => {
-        let url = 'http://54.197.52.197:8080/gxkart/user/login';
+        let url = 'http://54.197.52.197:8080/flipkart/user/login';
         const reqBody = {
             'email': values.email,
             'password': values.password

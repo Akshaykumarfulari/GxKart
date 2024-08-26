@@ -289,13 +289,13 @@ export default function Footer() {
                 <h5 className="text-uppercase mb-4 text-white">Social</h5>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="https://www.instagram.com/gxkart/?hl=en" className="text-white" target='_blank' rel=" noreferrer">Instagram</a>
+                    <a href="https://www.instagram.com/flipkart/?hl=en" className="text-white" target='_blank' rel=" noreferrer">Instagram</a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/gxkart/" className="text-white" target='_blank' rel=" noreferrer">Facebook</a>
+                    <a href="https://www.facebook.com/flipkart/" className="text-white" target='_blank' rel=" noreferrer">Facebook</a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/gxkart" className="text-white" target='_blank' rel=" noreferrer">YouTube</a>
+                    <a href="https://www.youtube.com/flipkart" className="text-white" target='_blank' rel=" noreferrer">YouTube</a>
                   </li>
                 </ul>
               </div>
