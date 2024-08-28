@@ -13,7 +13,6 @@ export default function Home() {
   const userId = localStorage.getItem("userId")
   return (
     <div >
-      {userId === null ?
         <div>
           <Header1></Header1>
           <ControlledCarousel></ControlledCarousel>
@@ -21,7 +20,7 @@ export default function Home() {
           <Offer></Offer>
           <AllCategoryMain></AllCategoryMain>
           <Footer></Footer>
-        </div> : <h1>Sorry</h1>}
+        </div>
     </div>
   )
 }
